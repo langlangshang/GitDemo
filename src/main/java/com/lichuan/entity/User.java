@@ -6,7 +6,7 @@ public class User {
     private String username;
     private String password;
     private String nihao;
-
+    private String woshi;
     public String getNihao() {
         return nihao;
     }
