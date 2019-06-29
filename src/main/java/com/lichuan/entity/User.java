@@ -7,7 +7,13 @@ public class User {
     private String password;
     private String woshi;
 
-   
+    public String getWoshi() {
+        return woshi;
+    }
+
+    public void setWoshi(String woshi) {
+        this.woshi = woshi;
+    }
 
     public String getUid() {
         return uid;
