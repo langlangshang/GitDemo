@@ -7,6 +7,13 @@ public class User {
     private String password;
     private String nihao;
 
+    public String getNihao() {
+        return nihao;
+    }
+
+    public void setNihao(String nihao) {
+        this.nihao = nihao;
+    }
 
     public String getUid() {
         return uid;
