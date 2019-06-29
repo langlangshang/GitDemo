@@ -1,7 +1,7 @@
 package com.lichuan.entity;
 
 public class User {
-
+//这是主分支
     private String uid;
     private String username;
     private String password;
