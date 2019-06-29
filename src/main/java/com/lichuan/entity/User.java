@@ -11,6 +11,14 @@ public class User {
         return nihao;
     }
 
+    public String getWoshi() {
+        return woshi;
+    }
+
+    public void setWoshi(String woshi) {
+        this.woshi = woshi;
+    }
+
     public void setNihao(String nihao) {
         this.nihao = nihao;
     }
