@@ -5,7 +5,11 @@ public class User {
     private String uid;
     private String username;
     private String password;
+    private String nihao;
     private String woshi;
+    public String getNihao() {
+        return nihao;
+    }
 
     public String getWoshi() {
         return woshi;
@@ -13,6 +17,9 @@ public class User {
 
     public void setWoshi(String woshi) {
         this.woshi = woshi;
+    }
+    public void setNihao(String nihao) {
+        this.nihao = nihao;
     }
 
     public String getUid() {
