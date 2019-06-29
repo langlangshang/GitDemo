@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: root
+    password: lc911911
+    url: jdbc:mysql:///moban?serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
