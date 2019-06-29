@@ -5,8 +5,7 @@ public class User {
     private String uid;
     private String username;
     private String password;
-    private String age;
-    private String sex;
+
 
     public String getUid() {
         return uid;
@@ -32,21 +31,7 @@ public class User {
         this.password = password;
     }
 
-    public String getAge() {
-        return age;
-    }
 
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
 
     @Override
     public String toString() {
@@ -54,8 +39,7 @@ public class User {
                 "uid='" + uid + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", age='" + age + '\'' +
-                ", sex='" + sex + '\'' +
+   
                 '}';
     }
 }
